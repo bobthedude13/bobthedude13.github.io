@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .button:active {
+            background-color: #1c638d;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Gaming Hub</h1>
+    <p>Choose one of the options below to explore more:</p>
+
+    <div class="button-container">
+        <!-- Button 1 -->
+        <a href="https://www.example.com" class="button" target="_blank">Explore Game 1</a>
+
+        <!-- Button 2 -->
+        <a href="https://www.example2.com" class="button" target="_blank">Explore Game 2</a>
+
+        <!-- Button 3 -->
+        <a href="https://www.example3.com" class="button" target="_blank">Explore Game 3</a>
+    </div>
+</body>
+
+</html>
